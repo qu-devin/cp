@@ -39,7 +39,7 @@ int main() {
 
     int T;
     T = 1;
-    // cin >> t;
+    // cin >> T;
     
     for (int tt = 1; tt <= T; ++tt) {
         // cout << "Case #" << tt << ": ";
