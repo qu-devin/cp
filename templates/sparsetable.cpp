@@ -13,13 +13,10 @@ void build() {
             st[i][j] = min(st[i][j-1], st[i+(1<<(j-1))][j-1]);
 }
 
-int q(int l, int r) {
+int qry(int l, int r) {
     int j = 0;
     while (1<<(j+1) <= (r-l+1))
         ++j;
 
     return min(st[l][j], st[r-(1<<j)+1][j]);
 }
-
-
-
