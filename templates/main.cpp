@@ -37,8 +37,7 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    int T;
-    T = 1;
+    int T = 1;
     // cin >> T;
     
     for (int tt = 1; tt <= T; ++tt) {
